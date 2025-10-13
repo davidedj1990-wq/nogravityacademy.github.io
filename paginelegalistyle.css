@@ -1,0 +1,109 @@
+/* cookie-policy.css */
+ :root {
+            --dark: #0a0a0a;
+            --dark2: #121212;
+            --orange: #bd1e1e;
+            --light: #f8f8f8;
+            --gray: #aaaaaa;
+            --orange-light: #ff5555;
+            --ombrahover: #0361ce;
+        }
+        
+/* Reset e font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--ombrahover); /* colore brand */
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color:var(--ombrahover); /* colore brand */
+}
+
+section h3 {
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section a {
+    color: var(--ombrahover); /* colore brand */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+section a:hover {
+    color: var(--ombrahover); /* colore brand */
+    text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+    section h3 {
+        font-size: 1.2rem;
+    }
+}

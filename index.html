@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <!-- Titolo principale (importante per Google) -->
+    <title>No Gravity Academy - Primo Allenamento Gratuito</title>
+
+    <!-- Descrizione per i risultati di ricerca -->
+    <meta name="description" 
+    content="Davide Semino Personal Trainer | Prenota il tuo Primo Allenamento GRATUITO ">
+
+    <!-- icone loading page -->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="No Gravity" />
+    <link rel="manifest" href="site.webmanifest" />
+
+
+    
+    <!-- Meta Robots per Permettere l'Indicizzazione -->
+    <meta name="robots" content="index, follow">
+ <meta name="keywords" content="Davide Semino, Coach, Palestra pavia, nogravity, calisthenics, calisthenics pavia">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='styleindex.css'>
+
+    <script src='sciptindex.js'></script>
+
+    <!-- Schema.org per Google - Attività Commerciale (Palestra) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "No Gravity Academy",
+      "image": "https://www.nogravityacademy.it/logositotitle.png",
+      "url": "https://www.nogravityacademy.it",
+      "telephone": "+393349324812",
+      "email": "Davide.nogravity@outlook.it",
+      "priceRange": "€€",
+      "description": "No Gravity Academy è una palestra specializzata in calisthenics e allenamento a corpo libero a Valle Lomellina (PV). Offriamo allenamenti personalizzati, coaching nutrizionale e percorsi di ricomposizione corporea per chi vuole cambiare stile di vita.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Breme 24",
+        "addressLocality": "Valle Lomellina",
+        "addressRegion": "PV",
+        "postalCode": "27020",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.178664,
+        "longitude": 9.066258
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "10:00",
+          "closes": "12:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "16:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "16:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "11:00",
+          "closes": "12:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/no_gravity_academy",
+        "https://www.tiktok.com/@davide_nga",
+        "https://www.youtube.com/@nogravityacademy",
+        "https://www.facebook.com/people/no_gravity_academy/100086410795817/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servizi Offerti",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Allenamenti Personalizzati",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "name": "Primo Allenamento Gratuito",
+                "description": "Prenota il tuo primo allenamento gratuito per definire obiettivi, testare la condizione fisica e provare il nostro metodo.",
+                "price": "0",
+                "priceCurrency": "EUR"
+              },
+              {
+                "@type": "Offer",
+                "name": "Percorso Personalizzato Mensile",
+                "description": "Allenamenti 2-3 volte a settimana, con coaching nutrizionale e supporto costante.",
+                "price": "99",
+                "priceCurrency": "EUR"
+              }
+            ]
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.nogravityacademy.it/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Link al sitemap (per Google) -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+
+    <!-- Cookiebot -->
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="3d91b271-6526-47c5-82c8-4da1b945ff9d" data-blockingmode="auto" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logositotitle.png" alt="No Gravity Academy" class="logo-icon">
+            </div>
+
+            <!-- MENU DESKTOP (sempre visibile su PC e tablet) -->
+            <nav id="nav-desktop">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Cosa Include</a></li>
+                    <li><a href="#goals">Obiettivi</a></li>
+                    <li><a href="#target">Per chi è indicato</a></li>
+                    <li><a href="#gym">Dove Siamo ?</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </nav>
+
+            <!-- HAMBURGER SU MOBILE SOLO -->
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- MENU MOBILE CENTRATO - SI APRE DAL BASSO DELL'HEADER -->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Cosa Include</a></li>
+                    <li><a href="#goals">Obiettivi</a></li>
+                    <li><a href="#target">Per chi è indicato</a></li>
+                    <li><a href="#gym">Dove Siamo ?</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div id="titoloall" class="hero-content fade-in">
+                <h1>No Gravity Academy</h1>
+                <p>Dove il corpo si libera dai limiti e tu impari a dominarlo.</p>
+                <div class="hero-btns">
+                    <a href="https://wa.me/+393349324812?text=Ciao,%20vorrei%20prenotare%20una%20lezione%20gratuita" class="btn">Prenota la tua lezione gratuita</a>
+                    <a href="#services" class="btn btn-secondary">Scopri i dettagli</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="palestra" class="section about">
+        <div class="container">
+            <div class="section-title">
+                <h2>La Nostra Palestra</h2>
+                <p>Il Tuo Spazio per Crescere</p>
+            </div>
+            <br>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>Allenati in uno spazio unico</h3>
+                    <p>
+                        La nostra palestra è pensata per offrire comfort e le migliori attrezzature.<br>
+                        Qui troverai un ambiente motivante, accogliente e stimolante in cui poter raggiungere i tuoi obiettivi.
+                    </p>
+                    <p>
+                        Dalle parallele alle spalliere, fino ad arrivare alle strutture dedicate al calisthenics, troverai tutto ciò che ti serve per allenarti con il peso del tuo corpo in modo efficace e sicuro.
+                    </p>
+                    <br>
+                    <p>In No Gravity Academy ogni cliente riceve la massima attenzione e cura, per un allenamento che stimola corpo e mente. Le lezioni sono a numero chiuso, con un massimo di 10 partecipanti, così possiamo seguire tutti da vicino. <br>Per noi è essenziale che ogni persona, a qualsiasi livello, abbia sempre un punto di riferimento chiaro durante il percorso di allenamento.</p>
+                </div>
+                <div class="about-image fade-in">
+                    <div class="palestra-slider" aria-roledescription="carousel">
+                        <div class="slide">
+                            <img src="https://i.postimg.cc/Hkkkn7pB/foto1.png" alt="Zona cardio della palestra">
+                        </div>
+                        <div class="slide active">
+                            <img src="https://i.postimg.cc/m2R40MMv/Immagine-2025-09-30-110034-1.png" alt="Sala pesi della palestra">
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.postimg.cc/JzxHdLhD/foto2.png" alt="Spazio functional training">
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.postimg.cc/9MbWcWvy/IMG-20251009-110557.jpg" alt="Spazio functional training">
+                        </div>
+                        <div class="slide">
+                            <img src="https://i.postimg.cc/J7DvQ7hN/foto-3.png" alt="Spazio functional training">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+  <!-- SEZIONE CON ID "recensioni" -->
+  <section id="recensioni">
+    <h2>Recensioni da Google</h2>
+    <p class="subtitle">Cosa dicono i nostri clienti su Google</p>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        <!-- PRIMA COPIA (per scorrimento) -->
+        <div class="card">
+          <div class="nome">Valeria Moretti</div>
+          <div class="data">una settimana fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Ottimo istruttore, molto disponibile e preparato. Segue personalmente ogni cliente con programmi personalizzati. Ottimo anche per la pianificazione alimentare e per ginnastica posturale.</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Leonardo Zapelli</div>
+          <div class="data">4 mesi fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>La palestra è molto accogliente e il coach è davvero competente e bravo. Ti segue sempre con attenzione, adattando gli allenamenti alle tue esigenze. Un ambiente piacevole e un allenamento personalizzato che consiglio volentieri.</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Gabriele Nastase</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Io vado in questa palestra da 18 mesi, mi sono trovato bene fin da prima volta. Davide è molto paziente e molto molto bravo... Devi provare per credere.</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Andrea Condito</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Palestra ottima, coach sempre disponibile che ve lo dico a fare 💪🏼💪🏼</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Mattia Condito</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Ottimo coach💪 molto disponibile e soprattutto molto preparato ve lo consiglio💪</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Giuseppe Bianco</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Ottimo allenatore💪 palestra sempre aggiornata con nuovo materiale Ve la consiglio</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Gioele Epis</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Seguo da 1 anno e ho ottenuto numerosi risultati che speravo. Istruttore gentile e disponibile sempre.</p>
+        </div>
+
+        <!-- COPIA IDENTICA PER EFFETTO INFINITO -->
+        <div class="card">
+          <div class="nome">Valeria Moretti</div>
+          <div class="data">una settimana fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Ottimo istruttore, molto disponibile e preparato. Segue personalmente ogni cliente con programmi personalizzati. Ottimo anche per la pianificazione alimentare e per ginnastica posturale.</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Leonardo Zapelli</div>
+          <div class="data">4 mesi fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>La palestra è molto accogliente e il coach è davvero competente e bravo. Ti segue sempre con attenzione, adattando gli allenamenti alle tue esigenze. Un ambiente piacevole e un allenamento personalizzato che consiglio volentieri.</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Gabriele Nastase</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Io vado in questa palestra da 18 mesi, mi sono trovato bene fin da prima volta. Davide è molto paziente e molto molto bravo... Devi provare per credere.</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Andrea Condito</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Palestra ottima, coach sempre disponibile che ve lo dico a fare 💪🏼💪🏼</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Mattia Condito</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Ottimo coach💪 molto disponibile e soprattutto molto preparato ve lo consiglio💪</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Giuseppe Bianco</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Ottimo allenatore💪 palestra sempre aggiornata con nuovo materiale Ve la consiglio</p>
+        </div>
+
+        <div class="card">
+          <div class="nome">Gioele Epis</div>
+          <div class="data">2 anni fa</div>
+          <div class="stelle">★★★★★</div>
+          <p>Seguo da 1 anno e ho ottenuto numerosi risultati che speravo. Istruttore gentile e disponibile sempre.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottone "Aggiungi una recensione" -->
+    <a href="https://g.page/r/CUV481Ck62NAEBM/review" target="_blank" class="btn-recensione">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="google-icon">
+        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+      </svg>
+      Aggiungi una recensione
+    </a>
+    
+  </section>
+
+
+
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Cosa Include il Primo Allenamento</h2>
+                <p>Scopri cosa ti aspetta nel tuo incontro gratuito</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3>Definizione degli obiettivi</h3>
+                    <p>Identifichiamo insieme i tuoi obiettivi specifici e realistici per creare un percorso efficace e motivante.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Test di allenamento</h3>
+                    <p>Valutiamo la tua condizione fisica attuale con test specifici per capire il tuo punto di partenza.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Allenamento di prova mirato</h3>
+                    <p>Prova un allenamento personalizzato basato sulle tue esigenze per capire il mio metodo di lavoro.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Proposta di un eventuale percorso</h3>
+                    <p>Riceverai una proposta personalizzata con i prossimi passi per raggiungere i tuoi obiettivi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="goals" class="section goals-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Obiettivi Che Potrai Raggiungere</h2>
+                <p>Cosa otterrai con il mio supporto</p>
+            </div>
+            <div class="goals-grid">
+                <div class="goal-card fade-in">
+                    <div class="goal-icon">
+                        <i class="fas fa-burn"></i>
+                    </div>
+                    <h3>Riduzione del grasso corporeo</h3>
+                    <p>Brucia il grasso in eccesso e raggiungi il tuo peso ideale con programmi mirati e sostenibili.</p>
+                </div>
+                <div class="goal-card fade-in">
+                    <div class="goal-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Migliore Salute</h3>
+                    <p>Migliora il tuo benessere fisico e mentale per vivere una vita più sana e equilibrata.</p>
+                </div>
+                <div class="goal-card fade-in">
+                    <div class="goal-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Prestazioni Sportive</h3>
+                    <p>Aumenta la forza, la resistenza e la performance in qualsiasi disciplina sportiva che pratichi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="target" class="section target-audience">
+        <div class="container">
+            <div class="section-title">
+                <h2>Per chi è indicato</h2>
+                <p>Scopri se questa offerta fa per te</p>
+            </div>
+            <div class="target-list fade-in">
+                <div class="target-item">
+                    <div class="target-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div>
+                        <h4>Persone Che Vogliono Vedere Risultati</h4>
+                        <p>Se vuoi cambiare il tuo corpo e la tua salute in modo concreto e misurabile.</p>
+                    </div>
+                </div>
+                <div class="target-item">
+                    <div class="target-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div>
+                        <h4>Chi Vuole Cambiare Stile Di Vita Senza Enormi Restrizioni</h4>
+                        <p>Se preferisci un approccio sostenibile e non drastiche privazioni.</p>
+                    </div>
+                </div>
+                <div class="target-item">
+                    <div class="target-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div>
+                        <h4>Chi Ha Un Obiettivo Chiaro Ma Non è Mai Riuscito A Ottenerlo</h4>
+                        <p>Se hai provato diverse volte senza successo e cerchi un supporto professionale.</p>
+                    </div>
+                </div>
+                <div class="target-item">
+                    <div class="target-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div>
+                        <h4>Chi Ha Bisogno Di Allenamenti Mirati</h4>
+                        <p>Per dimagrimento, tonificazione, aumento massa muscolare o ricomposizione corporea.</p>
+                    </div>
+                </div>
+                <div class="target-item">
+                    <div class="target-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div>
+                        <h4>Chi Deve Recuperare Da Un Infortunio</h4>
+                        <p>Se stai tornando in forma dopo un infortunio e cerchi un supporto sicuro e professionale.</p>
+                    </div>
+                </div>
+                <div class="target-item">
+                    <div class="target-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div>
+                        <h4>Chiunque Voglia Migliorarsi e Fare Il Pieno Di Motivazione</h4>
+                        <p>Se vuoi ritrovare la fiducia in te stesso e raggiungere il tuo potenziale.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Chi Sono</h2>
+                <p>Il tuo Personal Trainer certificato</p>
+            </div>
+            <br>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h3>Davide Semino - Personal Trainer</h3>
+                    <p>Da oltre 10 anni aiuto persone a raggiungere i loro obiettivi fisici con allenamenti 100% personalizzati e supporto costante. Il mio obiettivo è far si che il benessere desiderato possa essere mantenuto nel tempo, non solo temporaneamente.</p>
+                    <p>Specializzato in allenamenti a corpo libero, istruttore calisthenics di secondo livello e coach alimentare personale, offro un approccio completo per migliorare la tua forma fisica, salute e prestazioni sportive.</p>
+                    <p>Vuoi cambiare il tuo stile di vita senza enormi restrizioni? Inizia con il primo allenamento gratuito e raggiungi I tuoi obiettivi nel minor tempo possibile!</p>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="https://assets.cdn.filesafe.space/DduS0sSK780ZrvtMlqhf/media/67d590c98b2801f79bc133ee.jpeg" alt="Davide Semino Personal Trainer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gym" class="gym-section">
+        <div class="section-title">
+            <h2>Dove ci troviamo</h2>
+            <p>Scopri la nostra sede e inizia il tuo percorso verso il cambiamento.</p>
+        </div>
+        <br>
+        <div class="gym-flex-container">
+            <!-- ORARI -->
+            <div id="hours-card" class="gym-card">
+                <h3 id="hours-title" class="card-title">Orari</h3>
+                <div id="hours-content" class="hours-text">
+                    <div class="hour-row">
+                        <strong class="day-label">Lunedì</strong>
+                        <span class="time-morning">10:00 – 12:00</span>
+                        <span class="time-afternoon">16:00 – 19:00</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="hour-row">
+                        <strong class="day-label">Martedì</strong>
+                        <span class="time-morning">10:00 – 12:00</span>
+                        <span class="time-afternoon">16:00 – 20:00</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="hour-row">
+                        <strong class="day-label">Mercoledì</strong>
+                        <span class="time-morning">10:00 – 12:00</span>
+                        <span class="time-afternoon">16:00 – 20:00</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="hour-row">
+                        <strong class="day-label">Giovedì</strong>
+                        <span class="time-morning">10:00 – 12:00</span>
+                        <span class="time-afternoon">16:00 – 20:00</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="hour-row">
+                        <strong class="day-label">Venerdì</strong>
+                        <span class="time-morning">10:00 – 12:00</span>
+                        <span class="time-afternoon">16:00 – 19:00</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="hour-row">
+                        <strong class="day-label">Sabato</strong>
+                        <span class="time-morning">11:00 – 12:00</span>
+                        <span class="time-afternoon">—</span>
+                    </div>
+                    <hr class="divider">
+                    <div class="hour-row weekend">
+                        <strong class="day-label weekend">Domenica</strong>
+                        <span class="time-morning weekend">Chiuso</span>
+                        <span class="time-afternoon weekend">—</span>
+                    </div>
+                    <p class="hours-note">
+                        * Orari soggetti a variazioni durante festività o giorni speciali.
+                    </p>
+                </div>
+            </div>
+
+            <!-- MAPPA -->
+            <div id="map-card" class="gym-card map-card">
+                <div id="map-label" class="map-label">Posizione su Google Maps</div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.789751545053!2d9.066257915275264!3d45.17866427913398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4785a1e6f1a1a1a1%3A0x2e1e4e0b2e3e5d4e!2sVia%20Breme%2C%2024%2C%2027020%20Valle%20Lomellina%20PV%2C%20Italia!5e0!3m2!1sit!2sit!4v1716487234567!5m2!1sit!2sit"
+                    width="100%" height="460"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    class="map-iframe"
+                ></iframe>
+            </div>
+        </div>
+
+        <!-- DISPONIBILITÀ -->
+        <div style="text-align:center; margin:40px 0 20px;">
+            <p id="solo10">Posti limitati </p>
+        </div>
+
+        <!-- BOTTONE CTA -->
+        <div id="hero-btns">
+            <a href="https://wa.me/+393349324812?text=Ciao,%20vorrei%20prenotare%20una%20lezione%20gratuita" class="btn2">Prenota il Tuo Primo Allenamento Gratuito</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h3>Contatti</h3>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:Davide.nogravity@outlook.it">Davide.nogravity@outlook.it</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Indirizzo</h4>
+                                <p>Via Breme 24, Pavia (PV) Valle Lomellina - 27020</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Telefono</h4>
+                                <p>+39 334-932-4812</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="contact-form fade-in">
+                    <h3 style="font-size: 1.8rem;">Seguimi sui social</h3>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/no_gravity_academy" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a> 
+                        <a href="https://www.tiktok.com/@davide_nga" target="_blank" class="social-icon">
+                            <i class="fab fa-tiktok"></i>
+                        </a>     
+                        <a href="https://www.youtube.com/@nogravityacademy" target="_blank" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.facebook.com/people/no_gravity_academy/100086410795817/" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/+393349324812?text=Ciao,%20vorrei%20prenotare%20una%20lezione%20gratuita" target="_blank" class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <img src="logositotitle.png" style="height: 100px;" alt="No Gravity Academy">
+            </div>
+            <p>Trasforma il tuo corpo, trasforma la tua vita</p>
+            <div class="footer-links">
+                <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+                <a href="cookie-policy.html" target="_blank">Cookie Policy</a>
+                <a href="termini-condizioni.html" target="_blank">Termini e Condizioni</a>
+            </div>
+            <p>&copy; 2024 Davide Semino - Tutti i diritti riservati</p>
+            <p style="color: rgba(255, 255, 255, 0.418);">P.IVA: 02894220181</p>
+        </div>
+    </footer>
+
+    <script>
+        // Header scroll
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // MENU MOBILE - HAMBURGER & CHIUSURA
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+
+        hamburger.addEventListener('click', () => {
+            mobileMenuOverlay.classList.toggle('show');
+            if (mobileMenuOverlay.classList.contains('show')) {
+                // Animazione a cascata delle voci
+                const items = mobileMenuOverlay.querySelectorAll('.mobile-menu li');
+                items.forEach((item, index) => {
+                    setTimeout(() => {
+                        item.style.opacity = "1";
+                        item.style.transform = "translateY(0)";
+                    }, 100 * index);
+                });
+            }
+        });
+
+        // Chiudi il menu cliccando fuori
+        mobileMenuOverlay.addEventListener('click', (e) => {
+            if (e.target === mobileMenuOverlay) {
+                mobileMenuOverlay.classList.remove('show');
+            }
+        });
+
+        // Chiudi il menu e fai lo scroll smooth al click su un link (mobile)
+        document.querySelectorAll('.mobile-menu a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                mobileMenuOverlay.classList.remove('show');
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Chiudi il menu e fai lo scroll smooth al click su un link (desktop)
+        document.querySelectorAll('#nav-desktop ul li a[href^="#"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animazioni fade-in
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(element => {
+            observer.observe(element);
+        });
+
+        // Slider palestra (senza dots)
+        document.addEventListener('DOMContentLoaded', () => {
+            const slider = document.querySelector('.palestra-slider');
+            if (!slider) return;
+
+            const slides = Array.from(slider.querySelectorAll('.slide'));
+            if (slides.length === 0) return;
+
+            let currentIndex = 0;
+            const intervalMs = 3000;
+            let timer = null;
+
+            function update() {
+                slides.forEach((s, i) => s.classList.toggle('active', i === currentIndex));
+            }
+
+            function next() {
+                currentIndex = (currentIndex + 1) % slides.length;
+                update();
+            }
+
+            function startTimer() {
+                if (slides.length <= 1) return;
+                stopTimer();
+                timer = setInterval(next, intervalMs);
+            }
+
+            function stopTimer() {
+                if (timer) {
+                    clearInterval(timer);
+                    timer = null;
+                }
+            }
+
+            // pausa on hover / touch
+            slider.addEventListener('mouseenter', stopTimer);
+            slider.addEventListener('mouseleave', startTimer);
+            slider.addEventListener('touchstart', stopTimer, { passive: true });
+            slider.addEventListener('touchend', startTimer, { passive: true });
+
+            // init
+            update();
+            startTimer();
+        });
+    </script>
+</body>
+</html>
