@@ -31,7 +31,6 @@
 
 
 
-<!-- Schema.org per Google (Palestra) -->
 
 <script type="application/ld+json">
 {
@@ -39,91 +38,59 @@
   "@type": "HealthClub",
   "name": "No Gravity Academy",
   "image": "https://www.nogravityacademy.it/logositotitle.png",
-  "url": "https://www.nogravityacademy.it/",
+  "url": "https://www.nogravityacademy.it",
+  "logo": "https://www.nogravityacademy.it/logositotitle.png",
+  "description": "No Gravity Academy è una palestra specializzata in allenamento funzionale, calisthenics e benessere fisico. Offriamo corsi per principianti e atleti avanzati in un ambiente stimolante e professionale.",
   "telephone": "+39 334 932 4812",
-  "email": "davide.nogravity@outlook.it",
-  "priceRange": "€€",
-  "description": "No Gravity Academy è una palestra specializzata in calisthenics e allenamento a corpo libero a Valle Lomellina (PV). Offriamo allenamenti personalizzati, coaching nutrizionale e percorsi di ricomposizione corporea per chi vuole cambiare stile di vita.",
+  "email": "Davide.nogravity@outlook.it",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Via Breme 24",
+   "streetAddress": "Via Breme 24",
     "addressLocality": "Valle Lomellina",
     "addressRegion": "PV",
     "postalCode": "27020",
     "addressCountry": "IT"
   },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "21:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "18:00"
+    }
+  ],
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": 45.178664,
     "longitude": 9.066258
   },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "10:00",
-      "closes": "12:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "16:00",
-      "closes": "19:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"],
-      "opens": "16:00",
-      "closes": "20:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
-      "opens": "11:00",
-      "closes": "12:00"
-    }
-  ],
   "sameAs": [
     "https://www.instagram.com/no_gravity_academy",
     "https://www.tiktok.com/@davide_nga",
     "https://www.youtube.com/@nogravityacademy",
     "https://www.facebook.com/people/no_gravity_academy/100086410795817/"
   ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Servizi Offerti",
-    "itemListElement": [
-      {
-        "@type": "OfferCatalog",
-        "name": "Allenamenti Personalizzati",
-        "itemListElement": [
-          {
-            "@type": "Offer",
-            "name": "Primo Allenamento Gratuito",
-            "description": "Prenota il tuo primo allenamento gratuito per definire obiettivi, testare la condizione fisica e provare il nostro metodo.",
-            "price": "0",
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-          },
-          {
-            "@type": "Offer",
-            "name": "Percorso Personalizzato Mensile",
-            "description": "Allenamenti 2-3 volte a settimana, con coaching nutrizionale e supporto costante.",
-            "price": "99",
-            "priceCurrency": "EUR",
-            "availability": "https://schema.org/InStock",
-          }
-        ]
-      }
-    ]
-  },
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.nogravityacademy.it/?s={search_term_string}",
-    "query-input": "required name=search_term_string"
+  "priceRange": "€€",
+  "founder": {
+    "@type": "Person",
+    "name": "Davide [Cognome]",
+    "jobTitle": "Personal Trainer e Fondatore"
   }
 }
 </script>
+
 
 
     <!-- Link al sitemap (per Google) -->
@@ -791,4 +758,5 @@
         });
     </script>
 </body>
+
 </html>
